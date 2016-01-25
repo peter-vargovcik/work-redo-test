@@ -1,0 +1,7 @@
+﻿<h1>Hello World</h1>
+<p>Shout something for the echo</p>
+@using (Html.BeginForm("Echo", "CasperJS", FormMethod.Post))
+{
+    @Html.TextBox("shout")
+    <input type="submit" value="Shout" />
+}
